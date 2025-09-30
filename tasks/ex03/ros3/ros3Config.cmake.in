@@ -1,0 +1,14 @@
+# - Config file for the ros3 package
+# It defines the following variables
+#  ros3_INCLUDE_DIRS - include directories for FooBar
+#  ros3_LIBRARIES    - libraries to link against
+#  ros3_EXECUTABLE   - the bar executable
+
+set(ros3_INCLUDE_DIRS "@CONF_INCLUDE_DIRS@")
+
+# Our library dependencies (contains definitions for IMPORTED targets)
+include("${ros3_DIR}/export_ros3.cmake")
+
+# These are IMPORTED targets created by ros3Targets.cmake
+
+
