@@ -1,0 +1,2 @@
+Translation: [0.283, 0.010, 0.000]
+Rotation: in RPY (degree) [0.000, 0.000, -10.130]
