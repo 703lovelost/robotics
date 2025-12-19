@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>botbot_circle_controller</name>
+  <version>0.0.1</version>
+  <description>Publishes /cmd_vel to drive the botbot robot in a circle.</description>
+  <maintainer email="a.spirkin@g.nsu.ru">a.spirkin</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>geometry_msgs</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

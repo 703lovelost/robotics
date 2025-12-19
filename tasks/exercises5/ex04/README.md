@@ -1,0 +1,1 @@
+ros2 run botbot_circle_controller circle_controller --ros-args -p linear_x:=0.2 -p angular_z:=0.4 -p publish_hz:=20.0
